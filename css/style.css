@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#home-section{
+    background-image: url("../images/bg1.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+.home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 700px;
+}
+#home-section i{
+    background-color: white;
+    color: #008ED6;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.card-form{
+    opacity: 0.8;
+}
+/*======== Home section end =========*/
+/*======== Explore section start ================*/
+#explore-main-section i{
+    background-color: #3B3C42;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+/*======== Explore section end ================*/
+/*======== Create main section start ================*/
+#create-main-section i{
+    background-color: #008ED6;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+/*======== Create main section end ================*/
+/*======== Share head section start ================*/
+/*======== Share head section end ================*/
+
+@media(max-width:768px){
+    #home-section h1{
+        font-size: 3rem;
+        padding-left: 20px;
+    }
+}
